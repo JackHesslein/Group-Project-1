@@ -1,3 +1,87 @@
-body {
-    background-color: beige;
+header {
+    text-align: center;
+    display: inline;
+    margin-top: 10px;
+}
+
+a {
+    display: flex;
+    flex-basis: flex-end;
+  }
+
+main {
+    border: 3px solid black;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 0.25rem solid black;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+th {
+    text-align: center;
+}
+
+tbody tr:nth-child(1) th {
+    background-color: lightcoral;
+}
+tbody tr:nth-child(2) th {
+    background-color: lightsalmon;
+}
+tbody tr:nth-child(3) th {
+    background-color: lightgoldenrodyellow;
+}
+tbody tr:nth-child(4) th {
+    background-color: lightgreen;
+}
+tbody tr:nth-child(5) th {
+    background-color: skyblue;
+}
+tbody tr:nth-child(6) th {
+    background-color: plum;
+}
+tbody tr:nth-child(7) th {
+    background-color: lightpink;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+label span {
+    display: block;
+}
+
+button {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+
+
+
+footer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem 0 0.5rem 0;
 }
