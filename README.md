@@ -16,10 +16,8 @@ Acceptance Criteria:
 
 - When I add a task, the website adds it to a selected day and specific time period on the main overview page and organizes it by time and importance.
 
-- After the event is added, I have the option to add another task or return to the main overview page.
-
 - When I click on “Clear Planner,” the list of tasks is cleared to begin a new week.
 
-///Need to add screenshot of page once completed
-//Delete index2 file not being used
-//need to deploy to GitHub
+Screenshots:
+![Home Page](images/homepic.png)
+![Form Page](images/formpic.png)
