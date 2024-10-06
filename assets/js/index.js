@@ -20,9 +20,18 @@ existingTasks.forEach(task => {
 });
 
 //add button for Add task
+
 //link to task page
 
-//add button for Clear planner
-//clear planner
+
+// Add button for Clear planner
+const clearTasksButton = document.getElementById('clearTasksButton');
+clearTasksButton.addEventListener('click', function() {
+    // Clear the displayed tasks
+    document.querySelectorAll('tbody h1').forEach(h1 => h1.remove());
+
+    // Clear tasks from local storage
+    localStorage.removeItem('tasks');
+});
 
 //popup for add new task or exist (goes in HTML)
