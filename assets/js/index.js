@@ -20,8 +20,12 @@ existingTasks.forEach(task => {
 });
 
 //add button for Add task
+const addTasksButton = document.getElementById('addTasksButton');
 
 //link to task page
+addTasksButton.addEventListener('click', function() {
+    window.location.href = 'form.html'; 
+});
 
 
 // Add button for Clear planner

@@ -28,8 +28,13 @@ form.addEventListener('submit', function (event) {
 
 })
 
+//link to planner page
+const backToHome = document.getElementById('Back to Home');
 
-
+//link to planner
+addTasksButton.addEventListener('click', function() {
+    window.location.href = 'index.html'; 
+});
 
 
 
