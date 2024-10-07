@@ -33,7 +33,7 @@ const backToHome = document.getElementById('Back to Home');
 
 //link to planner
 addTasksButton.addEventListener('click', function() {
-    window.location.href = 'index.html'; 
+    window.location.href = './index.html'; 
 });
 
 

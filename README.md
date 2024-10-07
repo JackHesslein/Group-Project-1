@@ -21,3 +21,4 @@ Acceptance Criteria:
 Screenshots:
 ![Home Page](images/homepic.png)
 ![Form Page](images/formpic.png)
+![Home Page with Modal](images/modalpic.png)
