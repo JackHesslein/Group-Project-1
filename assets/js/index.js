@@ -38,4 +38,3 @@ clearTasksButton.addEventListener('click', function() {
     localStorage.removeItem('tasks');
 });
 
-//popup for add new task or exist (goes in HTML)

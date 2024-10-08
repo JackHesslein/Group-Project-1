@@ -85,3 +85,13 @@ footer {
     text-align: center;
     padding: 2rem 0 0.5rem 0;
 }
+
+/* credit: https://adrianroselli.com/2020/11/under-engineered-responsive-tables.html */
+
+[role="region"][aria-labelledby][tabindex] {
+    overflow: auto;
+  }
+  
+  [role="region"][aria-labelledby][tabindex]:focus {
+    outline: .1em solid rgba(0,0,0,.1);
+  }
